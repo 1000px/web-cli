@@ -1,0 +1,40 @@
+{
+	"HELP": "帮助",
+	"SIGN_IN": "登录",
+	"SIGN_OUT": "退出登录",
+	"GO_BACK": "返回",
+	"RESET": "重置",
+	"SEARCH": "搜索",
+	"QUERY": "查询",
+	"REFRESH": "刷新",
+	"SUCCESS": "成功",
+	"FAILED": "失败",
+	"BACK": "返回",
+	"SAVE": "保存",
+	"EDIT": "编辑",
+	"MORE": "更多",
+	"CREATE": "创建",
+	"UPDATE": "更新",
+	"DELETE": "删除",
+	"CONFIRM": "确定",
+	"CANCEL": "取消",
+	"ALL": "全部",
+	"IMAGE": "图片",
+	"VIDEO": "视频",
+	"AUDIO": "音频",
+	"FILE_NAME": "文件名称",
+	"FILE_TYPE": "文件类型",
+	"FILE_CLICK_UPLOAD": "点击上传",
+	"FILE_DOWNLOAD": "下载",
+	"PLEASE_SELECT": "请选择",
+	"PLEASE_INPUT": "请输入",
+
+	"LIST_PAGE": {
+		"NAV_TITLE": "文章列表"
+	},
+	"DETAIL_PAGE": {
+		"TITLE": "文章标题",
+		"DESC": "文章概要",
+		"CONTENT": "正文内容"
+	}
+}

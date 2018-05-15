@@ -1,0 +1,7 @@
+{
+	"BASE_URL": "http://rap.ctsp.kedacom.com/mockjs/12/",
+	"AJAX_TIMEOUT": "1000",
+	"BASE_IMG_URL": "",
+	"serverUrl": "http://118.31.169.188:90",
+	"rtcUrl": "http://101.37.116.238:3002"
+}
