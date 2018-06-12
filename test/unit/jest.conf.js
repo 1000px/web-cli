@@ -8,23 +8,23 @@ module.exports = {
     'vue'
   ],
   moduleNameMapper: {
-    '^@/(.*)$': '<rootDir>/src/$1'
+    '^@/(.*)$': '<rootDir>/proj01/$1'
   },
   transform: {
     '^.+\\.js$': '<rootDir>/node_modules/babel-jest',
     '.*\\.(vue)$': '<rootDir>/node_modules/vue-jest'
   },
   testPathIgnorePatterns: [
-    '<rootDir>/test/e2e'
+    '<rootDir>/module01/e2e'
   ],
   snapshotSerializers: ['<rootDir>/node_modules/jest-serializer-vue'],
-  setupFiles: ['<rootDir>/test/unit/setup'],
+  setupFiles: ['<rootDir>/module01/unit/setup'],
   mapCoverage: true,
-  coverageDirectory: '<rootDir>/test/unit/coverage',
+  coverageDirectory: '<rootDir>/module01/unit/coverage',
   collectCoverageFrom: [
-    'src/**/*.{js,vue}',
-    '!src/main.js',
-    '!src/router/index.js',
+    'proj01/**/*.{js,vue}',
+    '!proj01/main.js',
+    '!proj01/router/index.js',
     '!**/node_modules/**'
   ]
 }

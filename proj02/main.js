@@ -3,17 +3,17 @@
 import Vue from 'vue';
 import App from './App';
 import router from './router';
-import axios from '@/common/ajax/config';
-import utils from './utils';
-import Lang from '@/lang';
-import store from '@/store';
+import axios from 'proj02/common/ajax/config';
+import utils from '../utils';
+import Lang from 'lang';
+import store from 'proj02/store';
 import 'normalize.css';
 
 Vue.config.productionTip = false;
 
 Vue.use(Lang);
 Vue.use(utils);
-axios.get('static/global-config.json').then((res) => {
+axios.get('static/config/global.json').then((res) => {
 	Vue.prototype.g_Config = res.data;
 	axios.setConfig(Vue.prototype.g_Config);
 

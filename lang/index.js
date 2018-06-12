@@ -5,7 +5,7 @@
 
 // import Axios from '@/common/ajax';
 // import Config from '@/config';
-import CurrentLanguage from '@/lang/cn.json';
+import CurrentLanguage from 'lang/cn.json';
 
 // let lang = Config.LANGUAGE || navigator.browserLanguage || navigator.language;
 

@@ -45,9 +45,16 @@ const devWebpackConfig = merge(baseWebpackConfig, {
 		// https://github.com/ampedandwired/html-webpack-plugin
 		new HtmlWebpackPlugin({
 			filename: 'index.html',
-			template: 'index.html',
-			inject: true
+			template: 'proj01/index.html',
+			inject: true,
+			chunks: ['proj01']
 		}),
+		new HtmlWebpackPlugin({
+			filename: 'proj02.html',
+			template: 'proj02/index.html',
+			inject: true,
+			chunks: ['proj02']
+		})
 	]
 })
 

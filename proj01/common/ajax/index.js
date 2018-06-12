@@ -1,5 +1,5 @@
-import axios from '@/common/ajax/config';
-import router from '@/router';
+import axios from 'proj01/common/ajax/config';
+import router from 'proj01/router';
 
 // axios.defaults.withCredentials = true;
 // 添加请求拦截器

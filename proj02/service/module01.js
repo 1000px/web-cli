@@ -1,7 +1,7 @@
 /**
  * test模块ajax数据服务
  */
-import axios from '@/common/ajax';
+import axios from 'proj02/common/ajax';
 
 console.log(axios);
 /**
@@ -13,9 +13,9 @@ export const getList = () => {
 };
 
 /**
- * @name getArticle
+ * @name getDetail
  * @params id
  */
-export const getArticle = (params) => {
-	return axios.ajax('list', 'get', params);
+export const getDetail = (params) => {
+	return axios.ajax('detail', 'get', params);
 };

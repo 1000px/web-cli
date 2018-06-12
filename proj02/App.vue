@@ -1,17 +1,11 @@
 <template>
 	<div id="app">
-		<v-header :parent="msg"></v-header>
-		<hr>
-		<button @click="changeMsg">Parent Button</button>
-		<hr>
-		<h2>父组件中的msg：</h2>
-		<p>{{msg}}</p>
 		<router-view/>
 	</div>
 </template>
 
 <script>
-import vHeader from '@/components/header.vue';
+import vHeader from 'proj02/components/header.vue';
 export default {
 	name: 'app',
 	data () {
