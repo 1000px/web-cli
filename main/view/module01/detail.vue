@@ -13,7 +13,7 @@
 </template>
 
 <script>
-	import kNav from 'main/components/nav';
+	import kNav from 'components/nav';
 	export default {
 		data () {
 			return {

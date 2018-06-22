@@ -25,6 +25,7 @@ module.exports = {
 		extensions: ['.js', '.vue', '.json'],
 		alias: {
 			'vue$': 'vue/dist/vue.esm.js',
+			'components': resolve('components'),
 			'main': resolve('main'),
 			'app01': resolve('app01'),
 			'lang': resolve('lang'), // 语言包路径

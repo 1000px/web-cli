@@ -1,5 +1,5 @@
 // app入口文件
-// 初始化 路由、样式、语言、store、全局配置global-config.json
+// 初始化 路由、样式、语言、store、全局配置config/global.json
 import Vue from 'vue';
 import App from './App';
 import router from './router';
@@ -28,11 +28,3 @@ axios.get('static/config/global.json').then((res) => {
 }).catch((err) => {
 	window.alert(err);
 });
-// /* eslint-disable no-new */
-// new Vue({
-// 	el: '#app',
-// 	router,
-// 	store,
-// 	template: '<App/>',
-// 	components: { App }
-// });

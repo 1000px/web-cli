@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import kHeader from 'main/components/header.vue';
+import kHeader from 'components/header.vue';
 export default {
 	name: 'app',
 	data () {
